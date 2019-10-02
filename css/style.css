@@ -19,3 +19,33 @@ img{
 		padding: 42.2px 0px!important;
 	}
 }
+@media(max-width: 992px){
+	.display-4{
+		font-size: 250%;
+	}
+	.social a{
+		font-size: 4em;
+		padding: 2rem;
+	}
+}
+@media(max-width: 768px){
+	
+	.display-4{
+		font-size: 200%;
+	}
+	
+	.social a{
+		font-size: 2.5em;
+		padding: 1.2rem;
+	}
+}
+@media(max-width: 576px){
+	
+	.display-4{
+		font-size: 160%;
+	}
+	.social a{
+		font-size: 2em;
+		padding: .7rem;
+	}
+}
